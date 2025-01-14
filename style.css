@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Shaffof qora */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+.play-button {
+    background-color: #ffba00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    box-shadow:rgb(255, 255, 255) 0px 5px 15px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.players-count {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.language select {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Title Section */
+.title h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Players Section */
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.player-card {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow:rgb(255, 255, 255) 0px 5px 15px;
+}
+
+
+.player-card img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.player-card p {
+    font-size: 18px;
+    margin-top: 10px;
+  
+}
+
+/* Information Section */
+.information {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.info-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+   
+    width: 45%;
+    text-align: center;
+}
+
+.info-card img {
+    width: 100%;
+    height: 150px;
+    
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    background-color: #ffba00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+footer{
+    height: 158px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pp{
+    display: flex;
+    gap: 30px;
+}
+.read-more:hover{
+  background-color: #333;
+}
